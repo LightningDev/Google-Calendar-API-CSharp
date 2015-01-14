@@ -7,14 +7,17 @@ This is my wrapper classes to handle the REST method in Google Calendar API. Use
 Json library for .NET ( Json.NET)
 
 #Classes structure:#
-1.APIWrapper.cs: Main class for calling the Google Calendar request (Insert, Update, Delete, Get)
-2.GoogleCalendar.cs
-3.GoogleCalendarList.cs (actually not need, just make it to serialize)
-4.GoogleDateTime.cs (actually not need, just make it to serialize)
-5.GoogleEvent.cs
-6.GoogleEventList.cs (actually not need, just make it to serialize)
-7.GoogleToken.cs
-8.WebUtils.cs: Web request implementations (GET, POST, PUT, DELETE).
+<ul>
+  <li>APIWrapper.cs: Main class for calling the Google Calendar request (Insert, Update, Delete, Get)</li>
+  <li>GoogleCalendar.cs</li>
+  <li>GoogleCalendarList.cs (actually not need, just make it to serialize)</li>
+  <li>GoogleDateTime.cs (actually not need, just make it to serialize)</li>
+  <li>GoogleEvent.cs</li>
+  <li>GoogleEventList.cs (actually not need, just make it to serialize)</li>
+  <li>.GoogleToken.cs</li>
+  <li>WebUtils.cs: Web request implementations (GET, POST, PUT, DELETE)</li>
+</ul>
+
 
 #How to use:#
 <h3>Authorizing the user permission</h3>
