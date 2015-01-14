@@ -1,12 +1,12 @@
-# Google-Calendar-API-C#
+# Google-Calendar-API-C##
 Wrapper classes for using Google Calendar API
 
 This is my wrapper classes to handle the REST method in Google Calendar API. Use this if you don't want to use Google Library for .NET. It's written in C#.
 
-Prepare:
+#Prepare:#
 Json library for .NET ( Json.NET)
 
-Classes structure:
+#Classes structure:#
 -APIWrapper.cs: Main class for calling the Google Calendar request (Insert, Update, Delete, Get)
 -GoogleCalendar.cs
 -GoogleCalendarList.cs (actually not need, just make it to serialize)
@@ -16,7 +16,7 @@ Classes structure:
 -GoogleToken.cs
 -WebUtils.cs: Web request implementations (GET, POST, PUT, DELETE).
 
-How to use:
+#How to use:#
 1. Authorizing the user permission
 string authURL = APIWrapper.GetAuthenticateUrl("User gmail address");
 After this you can use any methods you want to get the aut horized code from user after they accept or cancel.
