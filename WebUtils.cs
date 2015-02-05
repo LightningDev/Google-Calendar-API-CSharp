@@ -7,7 +7,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InspectRealEstate.GoogleCalendarAPI
+namespace GoogleCalendarAPI
 {
     public class WebUtils
     {

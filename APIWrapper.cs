@@ -9,7 +9,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InspectRealEstate.GoogleCalendarAPI
+namespace GoogleCalendarAPI
 {
     /// <summary>
     /// The Json setting for serializing/deserializing objects which contains private attributes
