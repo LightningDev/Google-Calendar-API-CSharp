@@ -10,10 +10,10 @@ Json library for .NET ( Json.NET)
 <ul>
   <li>APIWrapper.cs: Main class for calling the Google Calendar request (Insert, Update, Delete, Get)</li>
   <li>GoogleCalendar.cs</li>
-  <li>GoogleCalendarList.cs (actually not need, just make it to serialize)</li>
-  <li>GoogleDateTime.cs (actually not need, just make it to serialize)</li>
+  <li>GoogleCalendarList.cs</li>
+  <li>GoogleDateTime.cs</li>
   <li>GoogleEvent.cs</li>
-  <li>GoogleEventList.cs (actually not need, just make it to serialize)</li>
+  <li>GoogleEventList.cs</li>
   <li>.GoogleToken.cs</li>
   <li>WebUtils.cs: Web request implementations (GET, POST, PUT, DELETE)</li>
 </ul>
