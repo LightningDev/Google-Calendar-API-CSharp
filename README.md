@@ -34,7 +34,7 @@ string authCode = Request.QueryString["code"]; // If user accept
 <br/>
 string errorCode = Request.QueryString["error"]; // otherwise, they cancel it
 <br/>
-This is just an example, you can write ashx file in ASP.NET if you want, the implementation how to get the Authorized code depends on you.
+This is just an example, you can write ashx file in ASP.NET if you want, the implementation how to get an authorization code depends on you.
 <br/>
 <h3>Get the refresh and access token</h3>
 To send the request to Google, you must have the token.
